@@ -11,4 +11,4 @@ jobs:
         with:
           annotation-title: Blogar Review App with Code Sandbox
           annotation-url: 'https://githubbox.com/'
-          token: '${{ secrets.GITHUB_TOKEN }}'
+          token: ${{ secrets.GITHUB_TOKEN }}
