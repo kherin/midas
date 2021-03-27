@@ -9,6 +9,5 @@ jobs:
         id: annotation
         uses: kherin/pr-comment-action@v1.0.0
         with:
-          annotation-title: Blogar Review App with Code Sandbox
           annotation-url: 'https://githubbox.com/'
           token: ${{ secrets.GITHUB_TOKEN }}
