@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: annotation action step
         id: annotation
-        uses: kherin/pr-comment-action@v1.0.0
+        uses: kherin/pr-comment-action@v1.0.1
         with:
           annotation-url: 'https://githubbox.com/'
           token: ${{ secrets.GITHUB_TOKEN }}
